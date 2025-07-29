@@ -19,7 +19,7 @@ class Garage:
 
     
     def __getitem__(self, i):
-        self.cars[i]
+        return self.cars[i]
 
 
     def __repr__(self):
