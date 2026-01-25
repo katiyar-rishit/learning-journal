@@ -1,6 +1,8 @@
 #include <stdio.h>
 #include <stdlib.h>
 
+//%- format specifier
+
 int main()
 {
   int favNum = 14;
