@@ -1,0 +1,6 @@
+linear regression gives you a number that can be anything — 50000, 200000, even negative. 
+But for classification you need to answer a yes/no question.You can't say "this person is 0.7 survived" ,you need a clean yes or no.
+So logistic regression takes the same linear equation:
+y = a + b1x1 + b2x2 + ...
+But wraps it in the sigmoid function which squishes any number into a value between 0 and 1.
+
