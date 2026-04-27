@@ -3,7 +3,7 @@ class FixedFloat:
         self.amount = amount
 
     def __repr__(self):
-        return f'<Fixed Float {self.amount:.2f}>'
+        return f"<Fixed Float {self.amount:.2f}>"
 
     @classmethod
     def from_sum(cls, value1, value2):
@@ -18,13 +18,12 @@ print(new_number)
 class Dollar(FixedFloat):
     def __init__(self, amount):
         super().__init__(amount)
-        self.symbol = '$'
+        self.symbol = "$"
 
     def __repr__(self):
-        return f'<Dollar {self.symbol}{self.amount:.2f}>'
+        return f"<Dollar {self.symbol}{self.amount:.2f}>"
 
 
 # Test Dollar
 money = Dollar.from_sum(16.578, 9.253)
 print(money)
-
