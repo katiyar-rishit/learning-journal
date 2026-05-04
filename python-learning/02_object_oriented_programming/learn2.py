@@ -44,3 +44,6 @@ class Employee:
 # main code
 today = datetime.today()
 print(Employee.is_workday(today))
+
+Mathew = Employee.from_string("Mathew-OGeneral-54345")
+print(Mathew.salary)

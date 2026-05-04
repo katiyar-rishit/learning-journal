@@ -1,5 +1,6 @@
 class BankAccount:
     def __init__(self, balance):
+        # private variable
         self._balance = balance
 
     @property
@@ -18,3 +19,8 @@ class BankAccount:
 
     def __repr__(self):
         return f"BankAccount(balance={self.balance!r})"
+
+
+account_163 = BankAccount(540394)
+account_163.balance = 63567
+print(f"Balance: {account_163.balance}")
