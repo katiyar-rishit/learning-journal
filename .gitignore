@@ -3,3 +3,6 @@
 *.iml
 out/
 .DS_Store
+.env
+data-science/CNN-from-scratch/dataset
+

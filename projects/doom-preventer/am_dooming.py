@@ -2,7 +2,6 @@ import psutil
 
 
 def is_process_running(process_name):
-
     for process in psutil.process_iter(["name"]):
         try:
             if process_name.lower() in process.info["name"].lower():

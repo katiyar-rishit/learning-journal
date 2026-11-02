@@ -5,6 +5,9 @@ import java.util.Arrays;
 import java.util.Date;
 
 public class Learn1 {
+
+    String name = "Himrod";
+
     public static void main(String[] args) {
         String name = "John";
         int age = 30;
@@ -16,7 +19,7 @@ public class Learn1 {
         byte myAge = 39;
         int viewCount = 123_456_789;
         long longNumber = 3_123_456_789L;
-        float price = 10.99F;
+        float price = 10.99f;
         double moneyCount = 56.73;
         char letter = 'a';
         boolean isEligible = false;
@@ -34,6 +37,7 @@ public class Learn1 {
         String message = new String("  Hello user");
         //same as
         String ask = "Who?";
+        System.out.println(ask);
 
         System.out.println(message.endsWith("er"));
         System.out.println(message.length());
@@ -71,6 +75,9 @@ public class Learn1 {
         int[][] matrix = new int[2][3];
         matrix[0][0] = 1;
         System.out.println(Arrays.deepToString(matrix));
+
+        int[][][] threeDMatrix = {{{1, 2, 3}, {4, 5, 6}},{{3,2,1},{5,6,2}}};
+        System.out.println(Arrays.deepToString(threeDMatrix));
 
 
     }

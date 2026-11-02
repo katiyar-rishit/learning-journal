@@ -41,4 +41,3 @@ def clean_list_of_titles(titles):
     return [clean_text(t) for t in titles]
 
 
-
