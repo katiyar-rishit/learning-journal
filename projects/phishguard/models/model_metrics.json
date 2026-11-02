@@ -1,0 +1,584 @@
+{
+  "selected_model": "Logistic Regression",
+  "logistic_regression": {
+    "validation_threshold": 0.1,
+    "validation_f1": 1.0,
+    "original_test_metrics": {
+      "split_name": "Original Test Split",
+      "sample_count": 200,
+      "accuracy": 1.0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1_score": 1.0,
+      "roc_auc": 1.0,
+      "confusion_matrix": {
+        "true_negative": 100,
+        "false_positive": 0,
+        "false_negative": 0,
+        "true_positive": 100,
+        "matrix": [
+          [
+            100,
+            0
+          ],
+          [
+            0,
+            100
+          ]
+        ]
+      },
+      "false_positive_count": 0,
+      "false_negative_count": 0,
+      "roc_curve_samples": [
+        {
+          "fpr": 0.0,
+          "tpr": 0.0,
+          "threshold": Infinity
+        },
+        {
+          "fpr": 0.0,
+          "tpr": 0.13,
+          "threshold": 0.9488
+        },
+        {
+          "fpr": 0.0,
+          "tpr": 0.3,
+          "threshold": 0.9365
+        },
+        {
+          "fpr": 0.0,
+          "tpr": 0.44,
+          "threshold": 0.9362
+        },
+        {
+          "fpr": 0.0,
+          "tpr": 0.58,
+          "threshold": 0.9297
+        },
+        {
+          "fpr": 0.0,
+          "tpr": 0.76,
+          "threshold": 0.9285
+        },
+        {
+          "fpr": 0.0,
+          "tpr": 0.8,
+          "threshold": 0.9171
+        },
+        {
+          "fpr": 0.0,
+          "tpr": 0.89,
+          "threshold": 0.917
+        },
+        {
+          "fpr": 0.0,
+          "tpr": 1.0,
+          "threshold": 0.8878
+        },
+        {
+          "fpr": 0.11,
+          "tpr": 1.0,
+          "threshold": 0.0984
+        },
+        {
+          "fpr": 0.16,
+          "tpr": 1.0,
+          "threshold": 0.09
+        },
+        {
+          "fpr": 0.23,
+          "tpr": 1.0,
+          "threshold": 0.0826
+        },
+        {
+          "fpr": 0.41,
+          "tpr": 1.0,
+          "threshold": 0.0767
+        },
+        {
+          "fpr": 0.56,
+          "tpr": 1.0,
+          "threshold": 0.0712
+        },
+        {
+          "fpr": 0.68,
+          "tpr": 1.0,
+          "threshold": 0.0703
+        },
+        {
+          "fpr": 0.75,
+          "tpr": 1.0,
+          "threshold": 0.068
+        },
+        {
+          "fpr": 0.84,
+          "tpr": 1.0,
+          "threshold": 0.0673
+        },
+        {
+          "fpr": 0.95,
+          "tpr": 1.0,
+          "threshold": 0.067
+        },
+        {
+          "fpr": 1.0,
+          "tpr": 1.0,
+          "threshold": 0.0447
+        }
+      ],
+      "pr_curve_samples": [
+        {
+          "precision": 0.5,
+          "recall": 1.0
+        },
+        {
+          "precision": 0.5128,
+          "recall": 1.0
+        },
+        {
+          "precision": 0.5435,
+          "recall": 1.0
+        },
+        {
+          "precision": 0.5714,
+          "recall": 1.0
+        },
+        {
+          "precision": 0.5952,
+          "recall": 1.0
+        },
+        {
+          "precision": 0.641,
+          "recall": 1.0
+        },
+        {
+          "precision": 0.7092,
+          "recall": 1.0
+        },
+        {
+          "precision": 0.813,
+          "recall": 1.0
+        },
+        {
+          "precision": 0.8621,
+          "recall": 1.0
+        },
+        {
+          "precision": 0.9009,
+          "recall": 1.0
+        },
+        {
+          "precision": 1.0,
+          "recall": 1.0
+        },
+        {
+          "precision": 1.0,
+          "recall": 0.89
+        },
+        {
+          "precision": 1.0,
+          "recall": 0.8
+        },
+        {
+          "precision": 1.0,
+          "recall": 0.76
+        },
+        {
+          "precision": 1.0,
+          "recall": 0.67
+        },
+        {
+          "precision": 1.0,
+          "recall": 0.58
+        },
+        {
+          "precision": 1.0,
+          "recall": 0.51
+        },
+        {
+          "precision": 1.0,
+          "recall": 0.44
+        },
+        {
+          "precision": 1.0,
+          "recall": 0.3
+        },
+        {
+          "precision": 1.0,
+          "recall": 0.13
+        },
+        {
+          "precision": 1.0,
+          "recall": 0.0
+        }
+      ]
+    }
+  },
+  "naive_bayes": {
+    "validation_threshold": 0.1,
+    "validation_f1": 1.0,
+    "original_test_metrics": {
+      "split_name": "Original Test Split",
+      "sample_count": 200,
+      "accuracy": 1.0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1_score": 1.0,
+      "roc_auc": 1.0,
+      "confusion_matrix": {
+        "true_negative": 100,
+        "false_positive": 0,
+        "false_negative": 0,
+        "true_positive": 100,
+        "matrix": [
+          [
+            100,
+            0
+          ],
+          [
+            0,
+            100
+          ]
+        ]
+      },
+      "false_positive_count": 0,
+      "false_negative_count": 0,
+      "roc_curve_samples": [
+        {
+          "fpr": 0.0,
+          "tpr": 0.0,
+          "threshold": Infinity
+        },
+        {
+          "fpr": 0.0,
+          "tpr": 0.13,
+          "threshold": 1.0
+        },
+        {
+          "fpr": 0.0,
+          "tpr": 0.3,
+          "threshold": 1.0
+        },
+        {
+          "fpr": 0.0,
+          "tpr": 0.44,
+          "threshold": 1.0
+        },
+        {
+          "fpr": 0.0,
+          "tpr": 0.53,
+          "threshold": 0.9999
+        },
+        {
+          "fpr": 0.0,
+          "tpr": 0.67,
+          "threshold": 0.9999
+        },
+        {
+          "fpr": 0.0,
+          "tpr": 0.85,
+          "threshold": 0.9998
+        },
+        {
+          "fpr": 0.0,
+          "tpr": 0.89,
+          "threshold": 0.9998
+        },
+        {
+          "fpr": 0.0,
+          "tpr": 1.0,
+          "threshold": 0.9974
+        },
+        {
+          "fpr": 0.11,
+          "tpr": 1.0,
+          "threshold": 0.0006
+        },
+        {
+          "fpr": 0.26,
+          "tpr": 1.0,
+          "threshold": 0.0002
+        },
+        {
+          "fpr": 0.33,
+          "tpr": 1.0,
+          "threshold": 0.0002
+        },
+        {
+          "fpr": 0.38,
+          "tpr": 1.0,
+          "threshold": 0.0002
+        },
+        {
+          "fpr": 0.5,
+          "tpr": 1.0,
+          "threshold": 0.0001
+        },
+        {
+          "fpr": 0.68,
+          "tpr": 1.0,
+          "threshold": 0.0001
+        },
+        {
+          "fpr": 0.75,
+          "tpr": 1.0,
+          "threshold": 0.0
+        },
+        {
+          "fpr": 0.84,
+          "tpr": 1.0,
+          "threshold": 0.0
+        },
+        {
+          "fpr": 0.95,
+          "tpr": 1.0,
+          "threshold": 0.0
+        },
+        {
+          "fpr": 1.0,
+          "tpr": 1.0,
+          "threshold": 0.0
+        }
+      ],
+      "pr_curve_samples": [
+        {
+          "precision": 0.5,
+          "recall": 1.0
+        },
+        {
+          "precision": 0.5128,
+          "recall": 1.0
+        },
+        {
+          "precision": 0.5435,
+          "recall": 1.0
+        },
+        {
+          "precision": 0.5714,
+          "recall": 1.0
+        },
+        {
+          "precision": 0.5952,
+          "recall": 1.0
+        },
+        {
+          "precision": 0.6667,
+          "recall": 1.0
+        },
+        {
+          "precision": 0.7246,
+          "recall": 1.0
+        },
+        {
+          "precision": 0.7519,
+          "recall": 1.0
+        },
+        {
+          "precision": 0.7937,
+          "recall": 1.0
+        },
+        {
+          "precision": 0.9009,
+          "recall": 1.0
+        },
+        {
+          "precision": 1.0,
+          "recall": 1.0
+        },
+        {
+          "precision": 1.0,
+          "recall": 0.89
+        },
+        {
+          "precision": 1.0,
+          "recall": 0.85
+        },
+        {
+          "precision": 1.0,
+          "recall": 0.76
+        },
+        {
+          "precision": 1.0,
+          "recall": 0.67
+        },
+        {
+          "precision": 1.0,
+          "recall": 0.6
+        },
+        {
+          "precision": 1.0,
+          "recall": 0.53
+        },
+        {
+          "precision": 1.0,
+          "recall": 0.44
+        },
+        {
+          "precision": 1.0,
+          "recall": 0.3
+        },
+        {
+          "precision": 1.0,
+          "recall": 0.13
+        },
+        {
+          "precision": 1.0,
+          "recall": 0.0
+        }
+      ]
+    }
+  },
+  "duplicate_aware_evaluation": {
+    "train_templates_count": 14,
+    "train_samples_count": 681,
+    "test_templates_count": 6,
+    "test_samples_count": 319,
+    "metrics": {
+      "split_name": "Duplicate-Aware Test Partition",
+      "sample_count": 319,
+      "accuracy": 1.0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1_score": 1.0,
+      "roc_auc": 1.0,
+      "confusion_matrix": {
+        "true_negative": 166,
+        "false_positive": 0,
+        "false_negative": 0,
+        "true_positive": 153,
+        "matrix": [
+          [
+            166,
+            0
+          ],
+          [
+            0,
+            153
+          ]
+        ]
+      },
+      "false_positive_count": 0,
+      "false_negative_count": 0,
+      "roc_curve_samples": [
+        {
+          "fpr": 0.0,
+          "tpr": 0.0,
+          "threshold": Infinity
+        },
+        {
+          "fpr": 0.0,
+          "tpr": 0.3595,
+          "threshold": 0.8689
+        },
+        {
+          "fpr": 0.0,
+          "tpr": 0.7843,
+          "threshold": 0.7057
+        },
+        {
+          "fpr": 0.0,
+          "tpr": 1.0,
+          "threshold": 0.6987
+        },
+        {
+          "fpr": 0.3193,
+          "tpr": 1.0,
+          "threshold": 0.2942
+        },
+        {
+          "fpr": 0.6325,
+          "tpr": 1.0,
+          "threshold": 0.2108
+        },
+        {
+          "fpr": 1.0,
+          "tpr": 1.0,
+          "threshold": 0.158
+        }
+      ],
+      "pr_curve_samples": [
+        {
+          "precision": 0.4796,
+          "recall": 1.0
+        },
+        {
+          "precision": 0.593,
+          "recall": 1.0
+        },
+        {
+          "precision": 0.7427,
+          "recall": 1.0
+        },
+        {
+          "precision": 1.0,
+          "recall": 1.0
+        },
+        {
+          "precision": 1.0,
+          "recall": 0.7843
+        },
+        {
+          "precision": 1.0,
+          "recall": 0.3595
+        },
+        {
+          "precision": 1.0,
+          "recall": 0.0
+        }
+      ]
+    }
+  },
+  "quality_report": {
+    "dataset_name": "lixi0029/phishing-mail",
+    "splits": {
+      "train": {
+        "total_samples": 600,
+        "unique_exact_emails": 20,
+        "exact_duplicates": 580,
+        "unique_normalized_emails": 20,
+        "normalized_duplicates": 580,
+        "label_distribution": {
+          "1": 300,
+          "0": 300
+        }
+      },
+      "validation": {
+        "total_samples": 200,
+        "unique_exact_emails": 20,
+        "exact_duplicates": 180,
+        "unique_normalized_emails": 20,
+        "normalized_duplicates": 180,
+        "label_distribution": {
+          "1": 100,
+          "0": 100
+        }
+      },
+      "test": {
+        "total_samples": 200,
+        "unique_exact_emails": 20,
+        "exact_duplicates": 180,
+        "unique_normalized_emails": 20,
+        "normalized_duplicates": 180,
+        "label_distribution": {
+          "1": 100,
+          "0": 100
+        }
+      }
+    },
+    "cross_split_leakage": {
+      "train_and_val_exact_overlap": 20,
+      "train_and_test_exact_overlap": 20,
+      "val_and_test_exact_overlap": 20,
+      "all_splits_overlap": 20,
+      "leakage_percentage_in_test": 100.0
+    },
+    "overall_summary": {
+      "total_records": 1000,
+      "total_unique_templates": 20,
+      "total_unique_normalized_templates": 20,
+      "conflicting_labels_count": 0,
+      "is_heavily_duplicated": true,
+      "evaluation_warning": "CRITICAL ACADEMIC FINDING: The dataset contains only 20 unique email templates repeated across 1,000 rows. Exactly 100% of the test split templates (20/20) appear in the training split (600 rows). Consequently, standard test set accuracy will appear near 100% due to data leakage / template memorization, rather than genuine generalization."
+    }
+  }
+}

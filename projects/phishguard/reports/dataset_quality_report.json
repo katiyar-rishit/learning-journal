@@ -1,0 +1,53 @@
+{
+  "dataset_name": "lixi0029/phishing-mail",
+  "splits": {
+    "train": {
+      "total_samples": 600,
+      "unique_exact_emails": 20,
+      "exact_duplicates": 580,
+      "unique_normalized_emails": 20,
+      "normalized_duplicates": 580,
+      "label_distribution": {
+        "1": 300,
+        "0": 300
+      }
+    },
+    "validation": {
+      "total_samples": 200,
+      "unique_exact_emails": 20,
+      "exact_duplicates": 180,
+      "unique_normalized_emails": 20,
+      "normalized_duplicates": 180,
+      "label_distribution": {
+        "1": 100,
+        "0": 100
+      }
+    },
+    "test": {
+      "total_samples": 200,
+      "unique_exact_emails": 20,
+      "exact_duplicates": 180,
+      "unique_normalized_emails": 20,
+      "normalized_duplicates": 180,
+      "label_distribution": {
+        "1": 100,
+        "0": 100
+      }
+    }
+  },
+  "cross_split_leakage": {
+    "train_and_val_exact_overlap": 20,
+    "train_and_test_exact_overlap": 20,
+    "val_and_test_exact_overlap": 20,
+    "all_splits_overlap": 20,
+    "leakage_percentage_in_test": 100.0
+  },
+  "overall_summary": {
+    "total_records": 1000,
+    "total_unique_templates": 20,
+    "total_unique_normalized_templates": 20,
+    "conflicting_labels_count": 0,
+    "is_heavily_duplicated": true,
+    "evaluation_warning": "CRITICAL ACADEMIC FINDING: The dataset contains only 20 unique email templates repeated across 1,000 rows. Exactly 100% of the test split templates (20/20) appear in the training split (600 rows). Consequently, standard test set accuracy will appear near 100% due to data leakage / template memorization, rather than genuine generalization."
+  }
+}
